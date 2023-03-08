@@ -1,3 +1,4 @@
+amazon-clone https://github.com/Awet11-Tesfay/amazon-clone
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
