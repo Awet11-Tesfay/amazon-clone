@@ -1,4 +1,15 @@
-amazon-clone https://github.com/Awet11-Tesfay/amazon-clone
+AMAZON CLONE<br /> <hr />
+Hi This is a clone of popular e-commmerce website Amazon. we have created it with React in frontend, Node  for backend and Firebase for storing data
+
+
+Features
+<hr />
+Register or login as an user.
+Add products to cart.
+Change the required number for products.
+Payment 
+Create order.
+Check order history.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
