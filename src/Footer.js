@@ -2,7 +2,9 @@ import React from 'react';
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import "./Footer.css";
 
+{/* footer function */}
 const Footer = () => {
+    {/* to handle the scroll */}
     const HandleClick = () => {
         window.scrollTo(0, 0);
     }
@@ -11,10 +13,12 @@ const Footer = () => {
             <div className="Footer">
                 <a  onClick={HandleClick}>
                     <div className="Footer_BackToTop">
+                        {/* when click on the expandlesson icon it's back to the to  */}
                         <ExpandLessIcon className="footer_BackToTopText" />
                     </div>
                 </a>
                 <div className="FooterVerticalRow">
+                    {/* the vertical col */}
                     <div className="FooterVerticalCol">
                         <div className="FooterVerticalColHead">Get To Know Us</div>
                         <ul>
