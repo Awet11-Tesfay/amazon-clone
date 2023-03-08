@@ -13,7 +13,6 @@ import { useStateValue } from "./StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
-
 const promise = loadStripe(
   "pk_test_51McoxdLc14lj7OzOqOwgr79DbzOGLYsUfTIsX9KWMj9VQoBk7JmXxNjNcctw8dfJfU4BVOWpfLFIYkFsgUOlZMNy00mFpekKN1"
 );
