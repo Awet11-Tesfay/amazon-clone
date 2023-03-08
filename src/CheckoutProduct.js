@@ -23,6 +23,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
                     <small>$</small>
                     <strong>{price}</strong>
                 </p>
+                {/* this is for rating*/}
                 <div className="checkoutProduct__rating">
                     {Array(rating)
                     .fill()
