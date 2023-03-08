@@ -1,8 +1,8 @@
-AMAZON CLONE<br /> <hr />
+`AMAZON CLONE`<br /> <hr />
 Hi This is a clone of popular e-commmerce website Amazon. we have created it with React in frontend, Node  for backend and Firebase for storing data
 
 
-Features
+`Features`
 <hr />
 Register or login as an user.<br />
 Add products to cart.<br />
