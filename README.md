@@ -1,16 +1,16 @@
 ### AMAZON CLONE <br /> <hr />
 Hi This is a clone of popular e-commmerce website Amazon. we have created it with React in frontend, Node  for backend and Firebase for storing data
-
+we created the Amazon Clone using React. We will also be using Firebase for Authentication, Database, Functions. Firebase is a great tool to get started with projects quickly. We will also be using HTML, CSS and React Context API. Please keep in mind, you need to have Visual Studio Code and NodeJS installed.
 
 ## `Features`
 <hr />
 <ul>
-    <li>Register or login as an user.</li><br />
-    <li>Add products to cart.</li><br />
-    <li>Change the required number for products.</li><br />
-    <li>Payment method<li><br />
-    <li>Create order.<li><br />
-    <li>Check order history.<li><br />
+    <li>Register or login as an user.</li>
+    <li>Add products to cart.</li>
+    <li>Change the required number for products.</li>
+    <li>Payment method</li>
+    <li>Create order.</li>
+    <li>Check order history.</li>
 </ul>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
