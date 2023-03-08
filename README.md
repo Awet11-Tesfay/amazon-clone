@@ -4,12 +4,12 @@ Hi This is a clone of popular e-commmerce website Amazon. we have created it wit
 
 Features
 <hr />
-Register or login as an user.
-Add products to cart.
-Change the required number for products.
-Payment 
-Create order.
-Check order history.
+Register or login as an user.<br />
+Add products to cart.<br />
+Change the required number for products.<br />
+Payment <br />
+Create order.<br />
+Check order history.<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
