@@ -1,0 +1,21 @@
+/*@import url("https://fonts.googlepis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+*::selection {
+    background: #ff0000;
+    color: #0000; 
+}
+html::-webkit-scrollbar {
+    width: 1px;
+}
+.html::-webkit-slider-thumb {
+    background: #ff0000;
+}
