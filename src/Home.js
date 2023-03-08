@@ -4,12 +4,15 @@ import Product from "./Product";
 import {useEffect} from 'react';
 
 function Home() {
+  {/* use to slide after some delays */}
   useEffect(() => Slider(0), []);
   return (
     <div className="home">
+      {/* home */}
       <div className="home__container">
-
+      {/* the home container */}
         <div className="homeSliderContainer">
+          {/* the home slide that displays after some seconds inside it containes three different images */}
           <div className="homeSlide">
             <img 
               className="homeImg"
@@ -32,9 +35,10 @@ function Home() {
             />
           </div>
         </div>
-
+        {/* first row */}
         <div className="home__row">
-                        {/* Products => Product ID, Title, Rating, Price, Img */}
+          {/* Products => Product ID, Title, Rating, Price, Img */}
+          {/* the first product */}
           <Product
             id={12323} 
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback" 
@@ -42,6 +46,7 @@ function Home() {
             rating={2}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
+          {/*  second product */}
           <Product 
             id={12323} 
             title="Sumsung LC49RG90SSUXETN 49' Curved LED Gaming Monitor" 
@@ -49,6 +54,7 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
           />
+          {/* third product */}
           <Product
             id={12323} 
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl" 
@@ -56,6 +62,7 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
+          {/* fourth product*/}
           <Product 
             id={12323} 
             title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric" 
@@ -64,6 +71,7 @@ function Home() {
             image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           />
         </div>
+        {/* second row */}
         <div className="home__row">
           <Product
             id="4903850"
@@ -87,6 +95,7 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
         </div>
+        {/* third row */}
         <div className="home__row">
           <Product
             id="90829332"
@@ -117,6 +126,7 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
+        {/* fourth row */}
         <div className="home__row">
           <Product 
             id={12323} 
@@ -144,6 +154,7 @@ function Home() {
     </div>
   );
 }
+{/* the function for the home slides  */}
 function Slider(Counter) {
   const slides = document.querySelectorAll(".homeImg")
   slides.forEach((slide, index) => {
@@ -168,9 +179,11 @@ function moveCorousal(Counter, slides, len) {
           }
       });
   }
+  {/* time interval for the home slide */}
   setTimeout(() => {
       moveCorousal(Counter, slides, len);
   }, 4000);
 }
 
 export default Home;
+//export the home funcion
