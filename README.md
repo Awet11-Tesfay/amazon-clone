@@ -14,6 +14,17 @@ we created the Amazon Clone using React. We will also be using Firebase for Auth
 </ul>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Installation`
+
+## `npx create-react-app`
+Here’s how this works. npx is a part of npm (Node Package Manager) except npx runs a remote script instead of installing it locally.<br />
+This is done so that you always have the latest version of React installed in your project.
+
+## `npm start`
+After you hit Enter, you should see your default browser open<br />
+If you do not see the browser tab open<br />
+searching in the new tab http://localhost:3000<br />
+
 ## Available Scripts
 
 In the project directory, you can run:
