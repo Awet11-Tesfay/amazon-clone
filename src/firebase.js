@@ -2,7 +2,6 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
-
 const firebaseConfig = {
     apiKey: "AIzaSyAr-ajt-xJd888INblsVO-LU8NzRxvIJ-Y",
     authDomain: "e-clone-6df42.firebaseapp.com",
@@ -14,8 +13,9 @@ const firebaseConfig = {
   };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
-  
-  const db = firebaseApp.firestore(); 
+  {/*firebase for database */}
+  const db = firebaseApp.firestore();
+  {/*firebase for authentication */} 
   const auth = firebase.auth();
 
   export { db, auth };
